@@ -10,8 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String saludar(){
-        return """
-                Hola Open-Bootcamp !
-                """;
+        return "Hola Open-Bootcamp !";
+
     }
 }

@@ -55,4 +55,7 @@ public class LaptopService implements ILaptopService{
         }
         return Optional.ofNullable(laptopDTOS);
     }
+    public void deleteAll(){
+        laptopRepository.deleteAll();
+    }
 }

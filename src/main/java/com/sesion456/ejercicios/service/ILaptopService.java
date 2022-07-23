@@ -11,4 +11,5 @@ public interface ILaptopService {
     void update(LaptopDTO laptopDTO);
     Optional<LaptopDTO> getLaptop(Long id);
     Optional<List<LaptopDTO>> allLaptop();
+    public void deleteAll();
 }
